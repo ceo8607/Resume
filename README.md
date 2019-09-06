@@ -14,7 +14,7 @@
 > - 재직기간 : 2016.04 ~ 현재
 > - 직   위 : 인프라 팀장
 > - 사업내용 : 웹 SNS, 게임플랫폼 
-> - 맡은 일
+> - 업무
 >   ```script
 >   시스템 설계/구축/운용
 >   네트워크 설계/구축/운용
@@ -28,7 +28,7 @@
 > - 재직기간 : 2013.12 ~ 2016.04 (2년 5개월)
 > - 직   위 : 정직원
 > - 사업내용 : 게임 퍼블리싱
-> - 맡은 일
+> - 업무
 >   ```script
 >   퍼블리싱 계약이 성사 된 게임 타이틀 인프라 설계/구축/운용
 >   사내 운용 툴 개발/운용(PHP, Perl, Node.js 등)
@@ -39,7 +39,7 @@
 > - 재직기간 : 2012.01 ~ 2013.12 (2년)
 > - 직   위 : 정직원
 > - 사업내용 : 국제전화 사업
-> - 맡은 일
+> - 업무
 >   ```script
 >   국제 전화 트래픽 중계 서버 운용
 >   외주 스케줄/코스트 관리
@@ -55,46 +55,66 @@
 ### Fantasy×Runners2(판타지 런너2)
 > - 플랫폼 : IOS/Android
 > - 업무
->> - 인프라(AWS) 구축/운용
->> - 운용팀 기술 지원(KPI툴 개발)
+>   ```script
+>   - 인프라(AWS) 구축/운용
+>   - 운용팀 기술 지원
+>   - KPI툴 개발(Node.js/PHP)
+>   ```
 
 ### クレヨンしんちゃん夢みる！カスカベ大合戦(크레용 신짱 꿈을 보다!)
 > - 플랫폼 : IOS/Android
 > - 업무
->> - 인프라(VMWare) 설계/구축/운용
->> - LogDB 구축/운용
->> - 운용팀 기술 지원
+>   ```script
+>   - 인프라(VMWare) 설계/구축/운용
+>   - LogDB 구축/운용
+>   - 운용팀 기술 지원
+>   - KPI툴 개발(PHP)
+>   ```
 
 ### クレヨンしんちゃんUFOパニック！走れカスカベ防衛隊(크레용 신짱 UFO 패닉!)
 > - 플랫폼 : IOS/Android
 > - 업무
->> - 인프라(VMWare) 설계/구축/운용
->> - LogDB 구축/운용
->> - 운용팀 기술 지원
+>   ```script
+>   - 인프라(VMWare) 설계/구축/운용
+>   - LogDB 구축/운용
+>   - 운용팀 기술 지원
+>   - KPI툴 개발(PHP)
+>   ```
 
 ### HIDE AND FIRE
 > - 플랫폼 : IOS/Android
 > - 업무
->> - 인프라(AWS) 설계/구축
->> - 텐센트 사의 북미 결제 시스템 설계 및 구축 중 퇴사
+>   ```script
+>   - 인프라(AWS) 설계/구축
+>   - 텐센트 사의 북미 결제 시스템 설계 및 구축 중 퇴사
+>   ```
 
 ### 그 외
 > - DIVA COLISEUM
->> - 업무
->>> - 인프라 운용
+>   - 업무
+>     ```script
+>     - 인프라 운용
+>     ```
 
 > - 戦略三国志(전략 삼국지)
->> - 업무
->>> - 인프라 운용
+>   - 업무
+>     ```script
+>     - 인프라 운용
+>     ```
 
 ## 그 외 업무
 ### 데이터 분석 시스템 기반 설계/구축
 > - 게임타이틀 : アトランティカ(아틀란티카)
->> - 업무
->>> - 로그 기반 데이터 분석 및 데이터 분석 시스템 설계/구축
+>   - 업무
+>     ```script
+>     - 로그 기반 데이터 분석 및 데이터 분석 시스템 설계/구축
+>     ```
 
 ### KPI툴 개발/운용
 > - Groups의 데이터 분석 기술과 연계하여 수집 된 결과를 가시화하기 위한 툴 개발(Node.js)
+
+### 쿠폰 발행 시스템 개발/운용
+> - 운용 중 타이틀(IOS/Android)의 Web view로 쿠폰 발행 시스템 개발(Node.js)
 
 ---
 
@@ -102,7 +122,9 @@
 ## 보유 스킬
 0. OS
   > - Linux (CentOS/Ubuntu)
-  >> - WEB, DB, Proxy, LVS, HAProxy, Storage 등 필요한 커널 튜닝
+  >   ```script
+  >   - WEB, DB, Proxy, LVS, HAProxy, Storage 등 필요한 커널 튜닝
+  >   ```
 1. WEB Server
   > - Apache, Nginx, Openresty, Perl(plack), Python(django) 환경의 WEB Server 구축/튜닝/운용
 2. DB Server
@@ -124,83 +146,83 @@
   > - NFS, SAMBA를 구축/운용
 6. Network
   > - VPN
-  ```script
-  > - Yamaha Router로 VPN 구축/운용
-  ```
+  > ```script
+    - Yamaha Router로 VPN 구축/운용
+  > ```
   > - LB(Loadbalancer)
-  ```script
-  > - Server : LVS(DR)/HAProxy + Keepalived 구축/운용
-  > - (Maxscale은 구축/검증까지만 완료, DNSDist 구축/검증까지만 완료)
-  > - Network기기 : BIG-IP 운용
-  > - (A10 Thunder는 구축/검증까지만 완료)
-  ```
+  > ```script
+    - Server : LVS(DR)/HAProxy + Keepalived 구축/운용
+      (Maxscale은 구축/검증까지만 완료, DNSDist 구축/검증까지만 완료)
+    - Network기기 : BIG-IP 운용
+      (A10 Thunder는 구축/검증까지만 완료)
+  > ```
   > - Firewall(방화벽)/DDoS 침입방지 시스템
-  ```script
+  > ```script
   > - FW : Juniper, Fortigate 정책 설계/구축/운용
   > - APS : Arbor 정책 설계/구축/운용
-  ```
+  > ```
   > - Router
-  ```script
-  > - Yamaha, Cisco 구축/운용
-  ```
+  > ```script
+    - Yamaha, Cisco 구축/운용
+  > ```
   > - Switch
-  ```script
-  > - DELL, HP, Dasan, 3com, Cisco 등 L2/L3 Switch 구축/운용
-  ```
-  
+  > ```script
+    - DELL, HP, Dasan, 3com, Cisco 등 L2/L3 Switch 구축/운용
+  > ``` 
 7. DNS
   > - PDNS
-  >>  - Public 도메인 관리용 서버 운용
+  > ```script
+    - Public 도메인 관리용 서버 운용
+  > ```
   > - TinyDNS (DJDNS)
-  >>  - Private 도메인 관리용 서버 구축/운용
+  > ```script
+    - Private 도메인 관리용 서버 구축/운용
+  > ```
   > - IDCF DNS
-  >>  - Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관하여 운용
-  
+  > ```script
+    - Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관/운용
+  > ```
 8. Virtualization
   > - KVM으로 물리서버를 가상화하여 운용
   > - Docker를 도입하여 사내 툴을 docker화하여 운용
   > - DCOS / Kubernetes 도입여부 비교 검증
-  >>  - 현재 마이크로서비스화를 개발팀과 협의하며 진행 중
-
+  > ```script  
+  > - 현재 마이크로서비스화를 개발팀과 협의하며 진행 중
+  > ```
 9. Cloud서비스
-  > - AWS, GCP 에서 서버 구축 경험 있음
-  >> - 웹서비스 회사 50대 정도의 소규모 인프라 온프레 --> AWS 이전 프로젝트 상담
-  
-10. Shell Script
-  > - 주로 bash를 사용하며 필요에 따라 python, perl 등을 사용
+  > - AWS
+  > ```script
+  > - 게임 타이틀 및 게임 결제 시스템 설계/구축/운용
+  > ```
+  > GCP
+  > ```script
+  > - bigquery를 이용한 데이터 분석 설계/구축
+  > - 데이터 전송 방식 embulk
+  > - Kubernetes 검증
+  > ```
+10. Script(자동화)
   > - 백업
-  >>  - 지정된 디렉토리, 파일을 압축해 로컬과 NFS에 보존하고, 서버의 기본적인 정보(process list, df 등)를 관리자 메일로 송신하는 셸 스크립트. 
-  >>  - 파티션 용량이 90%이상이거나 백업 에러 발생시에 메일 제목에 표시
+  > ```script
+    - DB백업 스크립트(Shell)
+    - 백업 결과 알림(Shell)
+  > ```
+  > - 인프라 감시
+  > ```script
+    - 네트워크 장비(BIG-IP / Switch / Arbor 등) 감시(Shell / perl)
+    - 물리서버(HP) iLO 로그 감시(Python)
+  > ```
   > - 통계
-  >>  - 게임 내의 결제내역을 로그에서 추출해 일/아이템/유저마다의 매출 계산을 하는 스크립트
-  > - 소스배포 (최근에는 ansible을 사용)
-  >>  - 개발 서버에서 실서버에 소스를 배포하는 GUI스크립트
+  > ```script
+    - 게임 타이틀별 KPI지표를 통계하여 가시화 툴/운용팀에게 전송(Shell / perl)
+  > ```
   > - 운용 관련
-  >>  - Memcached bakcup & restore 스크립트
-  >>  - 서버에 HOSTNAME만으로 자동 접속되는 스크립트 (ansible 나오기 전에 관리용으로 사용)
-  >>  - KVM 가상서버 생성 대화식 스크립트
-  >>  - 물리/가상 서버 초기설정 대화식 스크립트
-  >>  - 모니터링용 스크립트 (문제가 있으면 slack에게 메세지 보내도록)
-  >>    등 운용에 필요한 스크립트 제작 가능.
-
-11. 만든 것 & Open Source 참가
-  > - telegram 관리bot
-  >>  - telegram이라는 메신저에서 서버에 간단한 명령어를 던져 서버 상황을 확인할 수 있도록 만든 프로그램
-  >>  - bot.Telegram에서 제공하는api를 Lua script로 컨트롤
-  >>  - telegram-bot 링크 : https://github.com/t2sc0m/telegram_bot
-  > - Docker관련
-  >   - DB Monitoring 
-  >>    - prometheus + grafana를 사용하여 DB서버를 모니터링 할 수 있는 콘테이너를 작성.
-  >>    - Exporter(agent)는 percona에서 제공한 것을 사용.
-  >>    - pro-gf 링크 : https://hub.docker.com/r/adite/pro-gf/
-  > - Docker Cli Dashboard 
-  >>  - dcs라는 open source의 코드와 기능의 개선/추가
-  >>  - DCS 링크 : https://github.com/t2sc0m/docker_cli_dashboard
-  > - InfluxDB + Prometheus + Grafana 로 모니터링 시스템 구축
-  > - ansible 도입 
-  >>  - 실서버 deploy 환경을 svc + redmine --> git + ansible로 변경
-
-12. ETC
+  > ```script
+  > - Memcached bakcup & restore 스크립트(Shell)
+  > - KVM 가상서버 생성 대화식 스크립트(Shell)
+  > - 물리/가상 서버 초기 설정 스크립트(Shell)
+  > ```
+11. ETC
+  > - Mecab를 이용하여 
   > - 물리/소프트웨어에서 발생하는 트러블슈팅 가능
   > - Windows Server 2003 DNS서버 운용
   > - IBM NOTES 그룹웨어 설정/운용
