@@ -193,6 +193,7 @@
   
 8. Virtualization
   > - KVM으로 물리서버를 가상화하여 운용
+  > - VMWare로 게임 퍼블리싱 서비스 
   > - Docker를 도입하여 사내 툴을 docker화하여 운용
   > - DCOS / Kubernetes 도입여부 비교 검증
   >   ```script  
