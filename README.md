@@ -16,12 +16,12 @@
 > - 사업내용 : 웹 SNS, 게임플랫폼 
 > - 업무
 >   ```script
->   시스템 설계/구축/운용
->   네트워크 설계/구축/운용
->   레거시 시스템의 교체/업그레이드
->   작업 스케줄 및 코스트(비용/인적) 관리
->   오픈소스(docker, ansible 등) 도입으로 운용 프로세스 변경
->   사내 운용 툴 개발 및 운용(PHP, Perl, Node.js, Python, Javascript 등)
+>   - 시스템 설계/구축/운용
+>   - 네트워크 설계/구축/운용
+>   - 레거시 시스템의 교체/업그레이드
+>   - 작업 스케줄 및 코스트(비용/인적) 관리
+>   - 오픈소스(docker, ansible 등) 도입으로 운용 프로세스 변경
+>   - 사내 운용 툴 개발 및 운용(PHP, Perl, Node.js, Python, Javascript 등)
 >   ```
 
 ### 주식회사 넥슨 (일본)
@@ -30,9 +30,9 @@
 > - 사업내용 : 게임 퍼블리싱
 > - 업무
 >   ```script
->   퍼블리싱 계약이 성사 된 게임 타이틀 인프라 설계/구축/운용
->   사내 운용 툴 개발/운용(PHP, Perl, Node.js 등)
->   데이터 분석 기반 시스템 설계/구축
+>   - 퍼블리싱 계약이 성사 된 게임 타이틀 인프라 설계/구축/운용
+>   - 사내 운용 툴 개발/운용(PHP, Perl, Node.js 등)
+>   - 데이터 분석 기반 시스템 설계/구축
 >   ```
 
 ### SBCyberpass 주식회사 (일본)
@@ -41,12 +41,12 @@
 > - 사업내용 : 국제전화 사업
 > - 업무
 >   ```script
->   국제 전화 트래픽 중계 서버 운용
->   외주 스케줄/코스트 관리
->   국제 팩스 시스템 설계/구축/운용
->   CRM 시스템 개발/운용(PHP)
->   IDC 총괄 관리
->   네트워크 설계/구축/운용
+>   - 국제 전화 트래픽 중계 서버 운용
+>   - 외주 스케줄/코스트 관리
+>   - 국제 팩스 시스템 설계/구축/운용
+>   - CRM 시스템 개발/운용(PHP)
+>   - IDC 총괄 관리
+>   - 네트워크 설계/구축/운용
 >   ```
 
 ---
@@ -91,16 +91,10 @@
 
 ### 그 외
 > - DIVA COLISEUM
->   - 업무
->     ```script
->     - 인프라 운용
->     ```
-
+>   - 인프라 운용
 > - 戦略三国志(전략 삼국지)
->   - 업무
->     ```script
->     - 인프라 운용
->     ```
+>   - 인프라 운용
+
 
 ## 그 외 업무
 ### 데이터 분석 시스템 기반 설계/구축
@@ -123,6 +117,8 @@
 0. OS
   > - Linux (CentOS/Ubuntu)
   >   - WEB, DB, Proxy, LVS, HAProxy, Storage 등 필요한 커널 튜닝
+  > - Windows Server 2000/2003
+  >   - WEB, DB 등 운용
   
 1. WEB Server
   > - WEB Server 구축/튜닝/운용
@@ -151,94 +147,93 @@
   
 6. Network
   > - VPN
-  > ```script
-  > - Yamaha Router로 VPN 구축/운용
-  > ```
+  >   ```script
+  >   - Yamaha Router로 VPN 구축/운용
+  >   ```
   > - LB(Loadbalancer)
-  > ```script
-  > - Server : LVS(DR)/HAProxy + Keepalived 구축/운용
-  >   (Maxscale은 구축/검증까지만 완료, DNSDist 구축/검증까지만 완료)
-  > - Network기기 : BIG-IP 운용
-  >   (A10 Thunder는 구축/검증까지만 완료)
-  > ```
+  >   ```script
+  >   - Server : LVS(DR)/HAProxy + Keepalived 구축/운용
+  >     (Maxscale은 구축/검증까지만 완료, DNSDist 구축/검증까지만 완료)
+  >   - Network기기 : BIG-IP 운용
+  >     (A10 Thunder는 구축/검증까지만 완료)
+  >   ```
   > - Firewall(방화벽)/DDoS 침입방지 시스템
-  > ```script
-  > - FW : Juniper, Fortigate 정책 설계/구축/운용
-  > - APS : Arbor 정책 설계/구축/운용
-  > ```
+  >   ```script
+  >   - FW : Juniper, Fortigate 정책 설계/구축/운용
+  >   - APS : Arbor 정책 설계/구축/운용
+  >   ```
   > - Router
-  > ```script
-  > - Yamaha, Cisco 구축/운용
-  > ```
+  >   ```script
+  >   - Yamaha, Cisco 구축/운용
+  >   ```
   > - Switch
-  > ```script
-  > - DELL, HP, Dasan, 3com, Cisco 등 L2/L3 Switch 구축/운용
-  > ```
+  >   ```script
+  >   - DELL, HP, Dasan, 3com, Cisco 등 L2/L3 Switch 구축/운용
+  >   ```
   
 7. DNS
   > - PDNS
-  > ```script
-  > - Public 도메인 관리용 서버 운용
-  > ```
+  >   ```script
+  >   - Public 도메인 관리용 서버 운용
+  >   ```
   > - TinyDNS (DJDNS)
-  > ```script
-  > - Private 도메인 관리용 서버 구축/운용
-  > ```
-  > - IDCF DNS
-  > ```script
-  > - Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관/운용
-  > ```
+  >   ```script
+  >   - Private 도메인 관리용 서버 구축/운용
+  >   ```
+  > - IDCF DNS(Cloud)
+  >   ```script
+  >   - Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관/운용
+  >   ```
   
 8. Virtualization
   > - KVM으로 물리서버를 가상화하여 운용
   > - Docker를 도입하여 사내 툴을 docker화하여 운용
   > - DCOS / Kubernetes 도입여부 비교 검증
-  > ```script  
-  > - 현재 마이크로서비스화를 개발팀과 협의하며 진행 중
-  > ```
+  >   ```script  
+  >   - 현재 마이크로서비스화를 개발팀과 협의하며 진행 중
+  >   ```
   
 9. Cloud서비스
   > - AWS
-  > ```script
-  > - 게임 타이틀 및 게임 결제 시스템 설계/구축/운용
-  > ```
-  > GCP
-  > ```script
-  > - bigquery를 이용한 데이터 분석 설계/구축
-  > - 데이터 전송 방식 embulk
-  > - Kubernetes 검증
-  > ```
+  >   ```script
+  >   - 게임 타이틀 및 게임 결제 시스템 설계/구축/운용
+  >   ```
+  > - GCP
+  >   ```script
+  >   - bigquery를 이용한 데이터 분석 설계/구축
+  >     - 데이터 전송(embulk) / 가시화(데이터 스튜디오)
+  >   - Kubernetes 검증
+  >   ```
   
 10. Script(자동화)
   > - 백업
-  > ```script
-  > - DB백업 스크립트(Shell)
-  > - 백업 결과 알림(Shell)
-  > ```
+  >   ```script
+  >   - DB백업 스크립트(Shell/Perl)
+  >   - 백업 결과 알림(Shell/Perl)
+  >   ```
   > - 인프라 감시
-  > ```script
-  > - 네트워크 장비(BIG-IP / Switch / Arbor 등) 감시(Shell / perl)
-  > - 물리서버(HP) iLO 로그 감시(Python)
-  > ```
+  >   ```script
+  >   - 네트워크 장비(BIG-IP / Switch / Arbor 등) 감시(Shell / perl)
+  >   - 물리서버(HP) iLO 로그 감시(Python)
+  >   ```
   > - 통계
-  > ```script
-  > - 게임 타이틀별 KPI지표를 통계하여 가시화 툴/운용팀에게 전송(Shell / perl)
-  > ```
+  >   ```script
+  >   - 게임 타이틀별 KPI지표를 통계하여 가시화 툴/운용팀에게 전송(Shell / perl)
+  >   ```
   > - 운용 관련
-  > ```script
-  > - Memcached bakcup & restore 스크립트(Shell)
-  > - KVM 가상서버 생성 대화식 스크립트(Shell)
-  > - 물리/가상 서버 초기 설정 스크립트(Shell)
-  > ```
+  >   ```script
+  >   - Memcached bakcup & restore 스크립트(Shell)
+  >   - KVM 가상서버 생성 대화식 스크립트(Shell)
+  >   - 물리/가상 서버 초기 설정 스크립트(Shell)
+  >   ```
   
 11. ETC
-  > - Mecab(Python/Flask)을 이용하여 단어 필터 시스템 개발/구축/운용
+  > - Mecab(Python/Flask)을 이용하여 언어 필터링 API 개발/구축/운용
   >   - Mecab Dic갱신 업무 플로우 자동화
   > - 물리/소프트웨어에서 발생하는 트러블슈팅 가능
-  > - Windows Server 2003 DNS서버 운용
-  > - IBM NOTES 그룹웨어 설정/운용
+  > - Windows Server WEB서버 운용
   > - Git Repository(git, gitlab), Redmine 서버 구축/운용
-  > - Openresty(nginx) + lua script로 리버스 프록시 구축 
+  > - Openresty(nginx)로 리버스 프록시 구축 
   >   - 도메인을 변경하여 전달하는 reverse proxy 구축/운용
   > - Apache Solr replication 설정/운용
   > - 물리서버 매니지먼트 설정/운용 
@@ -250,6 +245,8 @@
   >   - 서버 규모 : 약 300대 이상
   > - GlusterFS 구축/검증
   >   - 도입을 위한 설계 중
+  > - 인프라 관리툴 도입(Racktables)
+  >   - 사내 요건에 맞추어 커스터마이징(PHP)
 
 
   
