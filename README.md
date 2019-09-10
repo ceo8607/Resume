@@ -89,14 +89,12 @@
 >   - 텐센트의 북미 결제 시스템을 기반으로 현지 사정에 맞게 커스터마이징(구축 중 퇴사)
 >   ```
 
-### 그 외
+### 그 외의 관리 타이틀
 > - DIVA COLISEUM
 >   - 인프라 운용
 > - 戦略三国志(전략 삼국지)
 >   - 인프라 운용
 
-
-## 그 외 업무
 ### 데이터 분석 시스템 기반 설계/구축
 > - 게임타이틀 : アトランティカ(아틀란티카)
 >   - 업무
@@ -140,7 +138,7 @@
   > - 클라우드 : newerlic
   
 4. Log Server
-  > - ELK(Elasticsearch + Logstash(fluentd) + Kibana)를 구축/운용
+  > - ELK(Elasticsearch + Logstash + Kibana)를 구축/운용
   
 5. Storage Server
   > - NFS, SAMBA를 구축/운용
