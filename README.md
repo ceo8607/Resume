@@ -122,13 +122,14 @@
 ## 보유 스킬
 0. OS
   > - Linux (CentOS/Ubuntu)
-  >   ```script
   >   - WEB, DB, Proxy, LVS, HAProxy, Storage 등 필요한 커널 튜닝
-  >   ```
+  
 1. WEB Server
-  > - Apache, Nginx, Openresty, Perl(plack), Python(django) 환경의 WEB Server 구축/튜닝/운용
+  > - WEB Server 구축/튜닝/운용
+  >   - Apache, Nginx, Openresty, perl(Plack), Node.js(Express), Python(django) 등
+  
 2. DB Server
-  > - Relational DB
+  > - RDB(Relational Database)
   >   - MySQL/MariaDB semi-sync replication 구축/튜닝/운용
   >   - MariaDB gtid replication 구축/튜닝/운용
   >   - MySQL/MariaDB semi-sync replication master HA구축/운용
@@ -137,24 +138,28 @@
   >   - MAX-Scale 검증
   > - NoSQL 
   >   - MongoDB, Redis, ThinkDB, ElasticSearch
+  
 3. Monitoring Server
-  > - Onpre : nagios, mrtg, cacti, prometheus, zabbix, netdata 등을 구축/운용
-  > - Cloud : newerlic
+  > - 온프레미스 : nagios, mrtg, cacti, prometheus, zabbix, netdata 구축/운용
+  > - 클라우드 : newerlic
+  
 4. Log Server
   > - ELK(Elasticsearch + Logstash(fluentd) + Kibana)를 구축/운용
+  
 5. Storage Server
   > - NFS, SAMBA를 구축/운용
+  
 6. Network
   > - VPN
   > ```script
-    - Yamaha Router로 VPN 구축/운용
+  > - Yamaha Router로 VPN 구축/운용
   > ```
   > - LB(Loadbalancer)
   > ```script
-    - Server : LVS(DR)/HAProxy + Keepalived 구축/운용
-      (Maxscale은 구축/검증까지만 완료, DNSDist 구축/검증까지만 완료)
-    - Network기기 : BIG-IP 운용
-      (A10 Thunder는 구축/검증까지만 완료)
+  > - Server : LVS(DR)/HAProxy + Keepalived 구축/운용
+  >   (Maxscale은 구축/검증까지만 완료, DNSDist 구축/검증까지만 완료)
+  > - Network기기 : BIG-IP 운용
+  >   (A10 Thunder는 구축/검증까지만 완료)
   > ```
   > - Firewall(방화벽)/DDoS 침입방지 시스템
   > ```script
@@ -163,25 +168,27 @@
   > ```
   > - Router
   > ```script
-    - Yamaha, Cisco 구축/운용
+  > - Yamaha, Cisco 구축/운용
   > ```
   > - Switch
   > ```script
-    - DELL, HP, Dasan, 3com, Cisco 등 L2/L3 Switch 구축/운용
-  > ``` 
+  > - DELL, HP, Dasan, 3com, Cisco 등 L2/L3 Switch 구축/운용
+  > ```
+  
 7. DNS
   > - PDNS
   > ```script
-    - Public 도메인 관리용 서버 운용
+  > - Public 도메인 관리용 서버 운용
   > ```
   > - TinyDNS (DJDNS)
   > ```script
-    - Private 도메인 관리용 서버 구축/운용
+  > - Private 도메인 관리용 서버 구축/운용
   > ```
   > - IDCF DNS
   > ```script
-    - Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관/운용
+  > - Public DNS를 PDNS에서 클라우드상의 DNS서비스로 이관/운용
   > ```
+  
 8. Virtualization
   > - KVM으로 물리서버를 가상화하여 운용
   > - Docker를 도입하여 사내 툴을 docker화하여 운용
@@ -189,6 +196,7 @@
   > ```script  
   > - 현재 마이크로서비스화를 개발팀과 협의하며 진행 중
   > ```
+  
 9. Cloud서비스
   > - AWS
   > ```script
@@ -200,20 +208,21 @@
   > - 데이터 전송 방식 embulk
   > - Kubernetes 검증
   > ```
+  
 10. Script(자동화)
   > - 백업
   > ```script
-    - DB백업 스크립트(Shell)
-    - 백업 결과 알림(Shell)
+  > - DB백업 스크립트(Shell)
+  > - 백업 결과 알림(Shell)
   > ```
   > - 인프라 감시
   > ```script
-    - 네트워크 장비(BIG-IP / Switch / Arbor 등) 감시(Shell / perl)
-    - 물리서버(HP) iLO 로그 감시(Python)
+  > - 네트워크 장비(BIG-IP / Switch / Arbor 등) 감시(Shell / perl)
+  > - 물리서버(HP) iLO 로그 감시(Python)
   > ```
   > - 통계
   > ```script
-    - 게임 타이틀별 KPI지표를 통계하여 가시화 툴/운용팀에게 전송(Shell / perl)
+  > - 게임 타이틀별 KPI지표를 통계하여 가시화 툴/운용팀에게 전송(Shell / perl)
   > ```
   > - 운용 관련
   > ```script
@@ -221,54 +230,37 @@
   > - KVM 가상서버 생성 대화식 스크립트(Shell)
   > - 물리/가상 서버 초기 설정 스크립트(Shell)
   > ```
+  
 11. ETC
-  > - Mecab를 이용하여 
+  > - Mecab(Python/Flask)을 이용하여 단어 필터 시스템 개발/구축/운용
+  >   - Mecab Dic갱신 업무 플로우 자동화
   > - 물리/소프트웨어에서 발생하는 트러블슈팅 가능
   > - Windows Server 2003 DNS서버 운용
   > - IBM NOTES 그룹웨어 설정/운용
-  > - Git Repository(git, gitlab), OwnCloud, Redmine 서버 구축/운용
+  > - Git Repository(git, gitlab), Redmine 서버 구축/운용
   > - Openresty(nginx) + lua script로 리버스 프록시 구축 
-  >>  - 도메인을 변경하여 전달하는 reverse proxy 구축/운용
+  >   - 도메인을 변경하여 전달하는 reverse proxy 구축/운용
   > - Apache Solr replication 설정/운용
   > - 물리서버 매니지먼트 설정/운용 
-  >>  - HP : iLO , DELL : iDRAC
+  >   - HP : iLO , DELL : iDRAC
   > - 현재 운영 중인 서비스 규모
-  >>  - DAU : 25 ~ 27만
-  >>  - MAU : 60 ~ 65만
-  >>  - 외부 트래픽 : 650 ~ 700 Mbps
-  >>  - 서버 규모 : 약 300대 이상
-  > - GlusterFS 도입 검증 진행중
+  >   - DAU : 25 ~ 27만
+  >   - MAU : 60 ~ 65만
+  >   - 외부 트래픽 : 650 ~ 700 Mbps
+  >   - 서버 규모 : 약 300대 이상
+  > - GlusterFS 구축/검증
+  >   - 도입을 위한 설계 중
 
 
   
 ---
 
 ## 보유 자격증
-> - 정보처리산업기사
->   - 기관명 : 한국산업인력관리공단
->   - 취득일 : 2000.07.31
-> - SCSA (Sun Certified System Administrator)
->   - 기관명 : Sun Microsystems
->   - 취득일 : 2006.12.30
-> - OCP-DBA (Oracle Certified Professional-DBA)
->   - 기관명 : Oracle
->   - 취득일 : 2007.03.05
-> - JLPT N2 (일본어능력시험)
->   - 기관명 : JEES
->   - 취득일 : 2012.01.27
----
-
-## 개인 프로젝트 및 링크
-> - 홈페이지 : http://www.atdt01410.com/
-> - 텔넷 서비스 : 러시아/중국의 끝없는 해킹 시도로 현재 서비스 중단
->   - 사설BBS : 2007 ~ 2018
->   - 머드게임 : 2007 ~ 2015
-> - 미소일기 : 온라인에서 만난 사람들과 함께 재미로 SNS서비스를 만들어봄
->   - 비용 문제로 현재 서비스 종료 후 백업사이트 운영 중
->   - 서비스 기간 : 2014.04 ~ 2019.05
->   - 미소일기 위키 : https://namu.wiki/w/%EB%AF%B8%EC%86%8C%EC%9D%BC%EA%B8%B0
->   - 미소일기 대피소 : http://www.misodiary.net/
-> - 깃허브 : https://github.com/t2sc0m
-> - 도커허브 : https://cloud.docker.com/u/adite/repository/list
-> - 링크드인 : https://www.linkedin.com/in/tescom/
+> - 정보처리 기능사
+> - CCNA
+> - 네트워크 관리사 2급
+> - PC정비사 1급
+> - ComTIA A+
+> - ComTIA Net+
+> - JLPT 2급 (일본어능력시험)
 ---
