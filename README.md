@@ -97,7 +97,9 @@
 
 ### 데이터 분석 시스템 기반 설계/구축
 > - 게임타이틀 : アトランティカ(아틀란티카)
+>   ```script
 >   - 로그 기반 데이터 분석 및 데이터 분석 시스템 설계/구축
+>   ```
 
 ### KPI툴 개발/운용
 > - Groups의 데이터 분석 기술과 연계하여 수집 된 결과를 가시화하기 위한 툴 개발(Node.js)
@@ -111,24 +113,33 @@
 ## 보유 스킬
 0. OS
   > - Linux (CentOS/Ubuntu)
+  >   ```script
   >   - WEB, DB, Proxy, LVS, HAProxy, Storage 등 필요한 커널 튜닝
+  >   ```
   > - Windows Server 2000/2003
+  >   ```script
   >   - WEB, DB 등 운용
+  >   ```
   
 1. WEB Server
   > - WEB Server 구축/튜닝/운용
+  >   ```script
   >   - Apache, Nginx, Openresty, perl(Plack), Node.js(Express), Python(django) 등
+  >   ```
   
 2. DB Server
   > - RDB(Relational Database)
+  >   ```script
   >   - MySQL/MariaDB semi-sync replication 구축/튜닝/운용
   >   - MariaDB gtid replication 구축/튜닝/운용
   >   - MySQL/MariaDB semi-sync replication master HA구축/운용
-  >     - MHA
   >   - MariaDB Galera Cluster 구축/검증
   >   - MAX-Scale 검증
-  > - NoSQL 
+  >   ```
+  > - NoSQL
+  >   ```script
   >   - MongoDB, Redis, ThinkDB, ElasticSearch
+  >   ```
   
 3. Monitoring Server
   > - 온프레미스 : nagios, mrtg, cacti, prometheus, zabbix, netdata 구축/운용
@@ -224,24 +235,36 @@
   
 11. ETC
   > - Mecab(Python/Flask)을 이용하여 언어 필터링 API 개발/구축/운용
+  >   ```script
   >   - Mecab Dic갱신 업무 플로우 자동화
+  >   ```
   > - 물리/소프트웨어에서 발생하는 트러블슈팅 가능
   > - Windows Server WEB서버 운용
   > - Git Repository(git, gitlab), Redmine 서버 구축/운용
-  > - Openresty(nginx)로 리버스 프록시 구축 
+  > - Openresty(nginx)로 리버스 프록시 구축
+  >   ```script
   >   - 도메인을 변경하여 전달하는 reverse proxy 구축/운용
+  >   ```
   > - Apache Solr replication 설정/운용
-  > - 물리서버 매니지먼트 설정/운용 
+  > - 물리서버 매니지먼트 설정/운용
+  >   ```script
   >   - HP : iLO , DELL : iDRAC
+  >   ```
   > - 현재 운영 중인 서비스 규모
+  >   ```script
   >   - DAU : 25 ~ 27만
   >   - MAU : 60 ~ 65만
   >   - 외부 트래픽 : 650 ~ 700 Mbps
   >   - 서버 규모 : 약 300대 이상
+  >   ```
   > - GlusterFS 구축/검증
+  >   ```script
   >   - 도입을 위한 설계 중
+  >   ```
   > - 인프라 관리툴 도입(Racktables)
+  >   ```script
   >   - 사내 요건에 맞추어 커스터마이징(PHP)
+  >   ```
 
 
   
